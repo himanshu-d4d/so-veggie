@@ -1,0 +1,66 @@
+dateModified: 1636635030
+email:
+  fromEmail: Himanshu.d4d@gmail.com
+  fromName: Quiz-app
+  replyToEmail: Himanshu.d4d@gmail.com
+  template: ''
+  transportSettings:
+    encryptionMethod: tls
+    host: smtp.gmail.com
+    password: Himanshu@123
+    port: '587'
+    timeout: '10'
+    useAuthentication: '1'
+    username: Himanshu.d4d@gmail.com
+  transportType: craft\mail\transportadapters\Smtp
+meta:
+  __names__:
+    3a992997-9812-4807-b43f-15a4791262bf: 'Plant Description' # Plant Description
+    4b7086d1-3925-43a1-97e3-ad5776101f3d: Home # Home
+    6b8e7b95-aace-4048-aa19-d86f2a69f6e2: 'Veggie Name' # Veggie Name
+    8c0f9cab-ba1c-4dab-9069-578496c23958: 'Veggie Description' # Veggie Description
+    8c86d440-d7d0-4be4-b6f9-b6c26570bf5c: 'Plant Description' # Plant Description
+    8f334b5c-f281-45f8-b566-ecf24c6df6af: Veggie # Veggie
+    9acf7969-ba3b-4c99-af02-c91120eb6ae8: 'Veggie Image' # Veggie Image
+    12e345f0-af6e-4a9a-a79f-73f8ebeab750: Quiz-app # Quiz-app
+    26dda2ae-8ebf-4c78-ad4d-0aad6a799bd9: 'Rich Text' # Rich Text
+    35d733fb-6b5b-4ed4-9c26-c8ea23da4456: 'Veggie Heading' # Veggie Heading
+    043d676b-e6cf-4463-95f7-5f63f9e30076: Veggies # Veggies
+    76fcc57b-4d3e-4056-bc36-36d84b3850f1: Common # Common
+    81cc9144-b189-46a6-bfbf-0fdae35257bb: 'Stuff Heading' # Stuff Heading
+    245ed696-7d35-4ad3-9260-1f5efda67301: 'Plant Image' # Plant Image
+    605cc096-229a-4436-b77c-2231ae47a4ab: 'Stuff Description' # Stuff Description
+    0658bfd5-25b8-4dec-b8ac-ac24689bbf67: 'Plant Heading' # Plant Heading
+    2138d81d-cfde-4b1e-b5a8-200d6823decd: "Plant Image\t" # Plant Image	
+    42120308-0594-47e2-a795-74447dc49fb1: 'Plants Section' # Plants Section
+    a17e147f-e160-4544-9496-8246b3d7d5cc: Quiz-app # Quiz-app
+    b0e2037b-9dec-4245-9ab6-9e6711cbb620: Home # Home
+    b86df002-6bb7-4247-aecc-f08c733ccd3e: 'veggie Section' # veggie Section
+    d1b24b0f-6763-4cd4-b92f-93b097308e92: 'Plant Heading' # Plant Heading
+    ef60bf39-cb3d-4f02-96ab-d7e24bcb32d1: 'Public Schema' # Public Schema
+    f93ad09d-00b5-43c5-b494-8c628ac9803b: Uploads # Uploads
+plugins:
+  postmark:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.1
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: pro
+  live: true
+  name: Quiz-app
+  schemaVersion: 3.7.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: true
+  defaultGroup: ''
+  fieldLayouts:
+    afb19698-8388-4c78-bcd8-4284a9192753: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: false
+  suspendByDefault: false
+  validateOnPublicRegistration: false

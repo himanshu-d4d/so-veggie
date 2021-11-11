@@ -1,0 +1,34 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 42120308-0594-47e2-a795-74447dc49fb1 # Plants Section
+handle: plantImage
+instructions: ''
+name: 'Plant Image'
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+  defaultUploadLocationSubpath: ''
+  limit: '5'
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: '1'
+  selectionLabel: 'Add Plants Images'
+  showSiteMenu: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+  singleUploadLocationSubpath: ''
+  source: null
+  sources:
+    - 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: large
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

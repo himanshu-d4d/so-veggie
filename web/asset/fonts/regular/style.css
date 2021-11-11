@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'GraphikRegular';
+  src: url('/path-to/GraphikRegular.woff2') format('woff2'),
+       url('/path-to/GraphikRegular.woff') format('woff'),
+       url('/path-to/GraphikRegular.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'GraphikRegular', sans-serif;
+}

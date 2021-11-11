@@ -1,0 +1,87 @@
+fieldLayouts:
+  99071e23-3305-4512-9f7c-f0bf020cf78a:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: d1b24b0f-6763-4cd4-b92f-93b097308e92 # Plant Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3a992997-9812-4807-b43f-15a4791262bf # Plant Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 245ed696-7d35-4ad3-9260-1f5efda67301 # Plant Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Plant
+        sortOrder: 1
+      -
+        elements:
+          -
+            fieldUid: 35d733fb-6b5b-4ed4-9c26-c8ea23da4456 # Veggie Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 043d676b-e6cf-4463-95f7-5f63f9e30076 # Veggies
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Veggies
+        sortOrder: 2
+handle: home
+hasTitleField: false
+name: Home
+section: b0e2037b-9dec-4245-9ab6-9e6711cbb620 # Home
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

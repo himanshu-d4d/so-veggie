@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'GraphikSemibold';
+  src: url('/path-to/GraphikSemibold.woff2') format('woff2'),
+       url('/path-to/GraphikSemibold.woff') format('woff'),
+       url('/path-to/GraphikSemibold.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'GraphikSemibold', sans-serif;
+}

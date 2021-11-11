@@ -1,0 +1,19 @@
+columnSuffix: rxyyqmrg
+contentColumnType: text
+fieldGroup: 42120308-0594-47e2-a795-74447dc49fb1 # Plants Section
+handle: plantDescription
+instructions: ''
+name: 'Plant Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '2'
+  multiline: '1'
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

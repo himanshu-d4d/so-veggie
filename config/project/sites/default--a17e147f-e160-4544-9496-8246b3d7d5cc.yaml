@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: Quiz-app
+primary: true
+siteGroup: 12e345f0-af6e-4a9a-a79f-73f8ebeab750 # Quiz-app
+sortOrder: 1
