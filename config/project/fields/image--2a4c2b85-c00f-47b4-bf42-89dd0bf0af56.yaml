@@ -1,9 +1,9 @@
 columnSuffix: null
 contentColumnType: string
-fieldGroup: 42120308-0594-47e2-a795-74447dc49fb1 # Plants Section
-handle: plantImage
+fieldGroup: e406cf50-2edd-450a-a012-1802f7223948 # Ingredients Section
+handle: image
 instructions: ''
-name: 'Plant Image'
+name: Image
 searchable: false
 settings:
   allowSelfRelations: false
@@ -12,19 +12,18 @@ settings:
     - image
   defaultUploadLocationSource: 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
   defaultUploadLocationSubpath: ''
-  limit: '5'
+  limit: '1'
   localizeRelations: false
   previewMode: full
   restrictFiles: '1'
-  selectionLabel: 'Add Plants Images'
+  selectionLabel: 'Upload image'
   showSiteMenu: false
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   singleUploadLocationSource: 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
   singleUploadLocationSubpath: ''
   source: null
-  sources:
-    - 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+  sources: '*'
   targetSiteId: null
   useSingleFolder: false
   validateRelatedElements: false

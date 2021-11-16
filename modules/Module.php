@@ -46,7 +46,9 @@ class Module extends \yii\base\Module
         // Custom initialization code goes here...
         $this->NewUserNotificationEmail();
         $this->NewUserNotificationEmailAdmin();
-
+     
+        
+        
     }
 
  

@@ -22,15 +22,6 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 245ed696-7d35-4ad3-9260-1f5efda67301 # Plant Image
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
             autocapitalize: true
             autocomplete: false
             autocorrect: true
@@ -58,6 +49,50 @@ fieldLayouts:
       -
         elements:
           -
+            fieldUid: 245ed696-7d35-4ad3-9260-1f5efda67301 # Slider Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Home Slider'
+        sortOrder: 2
+      -
+        elements:
+          -
+            fieldUid: ccaf29be-786a-4d74-8af3-901404a844ec # Stuff Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 992a37cc-0700-46f5-8467-0c3c3d68a92b # Stuff Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3babc92c-7d63-4607-a1f5-d7115477ce0f # Stuff Images
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Stuff
+        sortOrder: 3
+      -
+        elements:
+          -
             fieldUid: 35d733fb-6b5b-4ed4-9c26-c8ea23da4456 # Veggie Heading
             instructions: null
             label: null
@@ -76,7 +111,122 @@ fieldLayouts:
             warning: null
             width: 100
         name: Veggies
-        sortOrder: 2
+        sortOrder: 4
+      -
+        elements:
+          -
+            fieldUid: a6e5463c-ee40-4478-89db-dc6e723881ae # Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2040039c-096b-48d8-ab95-0612784db162 # Items
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Less-More
+        sortOrder: 5
+      -
+        elements:
+          -
+            fieldUid: 658dd9fb-4191-467b-bbd2-54330c140bd4 # Main Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 2a4c2b85-c00f-47b4-bf42-89dd0bf0af56 # Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: e276107d-43e0-47d5-9d5a-68900f176072 # Sections
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: ingredients
+        sortOrder: 6
+      -
+        elements:
+          -
+            fieldUid: a83f7a9b-98c4-42aa-84d2-20f467930ae5 # Svsw Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f6cf9783-aa13-4640-a921-7e17d9026a02 # Svsw Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: bba014e8-16a7-414c-b5cf-a60caac53270 # Photo Left
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 36667e75-27c4-4f21-bfcc-6dc4af25c3b2 # Photo Right
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Svsw-1
+        sortOrder: 7
+      -
+        elements:
+          -
+            fieldUid: 90f5a4ae-4b9c-4c9d-8b37-9c77b4ea570f # Contact Section Heading
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3c50962e-1562-4ed6-a0dd-44a81e24a603 # Contact Section Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Contact
+        sortOrder: 8
 handle: home
 hasTitleField: false
 name: Home

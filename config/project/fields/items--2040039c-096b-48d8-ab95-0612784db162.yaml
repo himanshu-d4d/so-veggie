@@ -1,0 +1,16 @@
+columnSuffix: seusfufk
+contentColumnType: string
+fieldGroup: 06caf23c-64d6-4a49-9f16-a72205696613 # Less-More Section
+handle: items
+instructions: ''
+name: Items
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_items_1}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

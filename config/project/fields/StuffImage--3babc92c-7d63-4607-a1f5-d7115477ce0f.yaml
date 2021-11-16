@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 44d15e8f-1d72-496f-9964-6a8cbeb9394b # Stuff Section
+handle: StuffImage
+instructions: ''
+name: 'Stuff Images'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_stuffimage}}'
+  maxBlocks: '1'
+  minBlocks: '1'
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

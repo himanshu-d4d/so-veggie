@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 42120308-0594-47e2-a795-74447dc49fb1 # Plants Section
+handle: sliderImage
+instructions: ''
+name: 'Slider Image'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_sliderimage}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

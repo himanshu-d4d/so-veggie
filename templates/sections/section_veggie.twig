@@ -1,21 +1,27 @@
- <section class="veggie">
+   <section class="veggie">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
             <h2 class="head">{{entry.veggieHeading}}</h2>
           </div>
-          {% for veggie in entry.veggies.all() %}
+           {% for veggie in entry.veggies.all() %}
           {% set image = veggie.veggieImage.one() %}
           <div class="col-sm-6">
             <div class="cont-box">
+            {% if image | length %}
               <div class="img">
-                <img src="{{ image.getUrl() }}" alt="image-left" class="img-right">
+              <img src="{{ image.getUrl() }}" class="img-right">
               </div>
+              {% else %}
+                <div class="img">
+                <img src="{{siteUrl}}asset/images/cicle-1.png" alt="image-left" class="img-right">
+                </div>
+               {% endif %}
               <h3>{{veggie.veggieName}}</h3>
               <p>{{veggie.veggieDescription}}</p>
             </div>
-          </div>
-          {% endfor %}
+          </div>  
+    {% endfor %}
         </div>
       </div>
     </section>

@@ -1,4 +1,4 @@
-dateModified: 1636635030
+dateModified: 1636981864
 email:
   fromEmail: Himanshu.d4d@gmail.com
   fromName: Quiz-app
@@ -15,31 +15,81 @@ email:
   transportType: craft\mail\transportadapters\Smtp
 meta:
   __names__:
+    1bc69689-1b2b-41dc-b9fd-33b232cb8973: 'Heading Second' # Heading Second
+    2a4c2b85-c00f-47b4-bf42-89dd0bf0af56: Image # Image
     3a992997-9812-4807-b43f-15a4791262bf: 'Plant Description' # Plant Description
+    3aecc315-e1e4-4d3b-aabb-76050d002e45: 'Center Image' # Center Image
+    3babc92c-7d63-4607-a1f5-d7115477ce0f: 'Stuff Images' # Stuff Images
+    3c50962e-1562-4ed6-a0dd-44a81e24a603: 'Contact Section Description' # Contact Section Description
     4b7086d1-3925-43a1-97e3-ad5776101f3d: Home # Home
     6b8e7b95-aace-4048-aa19-d86f2a69f6e2: 'Veggie Name' # Veggie Name
+    6ca226e8-995e-4713-aa07-2d8493c2b46c: 'Less More Item' # Less More Item
+    06caf23c-64d6-4a49-9f16-a72205696613: 'Less-More Section' # Less-More Section
+    7de52773-b29b-42cc-a693-7ad7227cc709: 'Less More Item' # Less More Item
+    8b8f4580-9ac1-456e-ae6e-d8f016b573c3: 'Description First' # Description First
     8c0f9cab-ba1c-4dab-9069-578496c23958: 'Veggie Description' # Veggie Description
     8c86d440-d7d0-4be4-b6f9-b6c26570bf5c: 'Plant Description' # Plant Description
     8f334b5c-f281-45f8-b566-ecf24c6df6af: Veggie # Veggie
     9acf7969-ba3b-4c99-af02-c91120eb6ae8: 'Veggie Image' # Veggie Image
     12e345f0-af6e-4a9a-a79f-73f8ebeab750: Quiz-app # Quiz-app
+    24bf5370-3b5e-42ea-ac3c-6d76435ec911: 'circle Image' # circle Image
     26dda2ae-8ebf-4c78-ad4d-0aad6a799bd9: 'Rich Text' # Rich Text
+    30f80cfb-0136-4656-8f77-fe13d759516b: 'Left List' # Left List
     35d733fb-6b5b-4ed4-9c26-c8ea23da4456: 'Veggie Heading' # Veggie Heading
     043d676b-e6cf-4463-95f7-5f63f9e30076: Veggies # Veggies
+    44d15e8f-1d72-496f-9964-6a8cbeb9394b: 'Stuff Section' # Stuff Section
+    57a5134a-d356-4054-bea2-99170476cc15: 'Left Image' # Left Image
     76fcc57b-4d3e-4056-bc36-36d84b3850f1: Common # Common
+    79f7da48-9a61-4ca1-be03-3cd4cb0bede5: Images # Images
     81cc9144-b189-46a6-bfbf-0fdae35257bb: 'Stuff Heading' # Stuff Heading
-    245ed696-7d35-4ad3-9260-1f5efda67301: 'Plant Image' # Plant Image
+    82aff86c-3487-4ca9-b40b-7015ad6e1f07: Upload # Upload
+    82b591ac-23f7-4f14-9b4b-dfd5076d868d: 'Add Sections' # Add Sections
+    90f5a4ae-4b9c-4c9d-8b37-9c77b4ea570f: 'Contact Section Heading' # Contact Section Heading
+    139c7b4b-bf3a-4ac6-8d8b-607bfbea83db: 'Section Description' # Section Description
+    212ba4b4-8752-4e6d-98c4-07622bdb2649: Contact-Us # Contact-Us
+    227b7bbb-fdd1-4fad-b3b3-bc8dc6d411ca: 'svsw Section' # svsw Section
+    245ed696-7d35-4ad3-9260-1f5efda67301: 'Slider Image' # Slider Image
+    321de910-801f-453d-84fe-dcd1c28fd1e2: Slider # Slider
     605cc096-229a-4436-b77c-2231ae47a4ab: 'Stuff Description' # Stuff Description
     0658bfd5-25b8-4dec-b8ac-ac24689bbf67: 'Plant Heading' # Plant Heading
+    658dd9fb-4191-467b-bbd2-54330c140bd4: 'Main Heading' # Main Heading
+    960e97c4-20da-4598-bfdd-b399cd3a945c: 'Heading First' # Heading First
+    992a37cc-0700-46f5-8467-0c3c3d68a92b: 'Stuff Description' # Stuff Description
     2138d81d-cfde-4b1e-b5a8-200d6823decd: "Plant Image\t" # Plant Image	
+    36667e75-27c4-4f21-bfcc-6dc4af25c3b2: 'Photo Right' # Photo Right
+    867762c2-e255-445f-80d7-16cd9afd1177: 'Section Heading' # Section Heading
+    2040039c-096b-48d8-ab95-0612784db162: Items # Items
     42120308-0594-47e2-a795-74447dc49fb1: 'Plants Section' # Plants Section
+    a6e5463c-ee40-4478-89db-dc6e723881ae: Heading # Heading
     a17e147f-e160-4544-9496-8246b3d7d5cc: Quiz-app # Quiz-app
+    a83f7a9b-98c4-42aa-84d2-20f467930ae5: 'Svsw Heading' # Svsw Heading
     b0e2037b-9dec-4245-9ab6-9e6711cbb620: Home # Home
     b86df002-6bb7-4247-aecc-f08c733ccd3e: 'veggie Section' # veggie Section
+    bba014e8-16a7-414c-b5cf-a60caac53270: 'Photo Left' # Photo Left
+    c0a2a353-ae55-4b6d-b295-b1f8dedece23: item # item
+    c6d2127e-5b65-4d7a-9dab-60cc2bab0d59: 'Right List' # Right List
+    c8d9b19f-f63a-4529-ab5e-939d7d12b7cc: 'Right Image' # Right Image
+    ccaf29be-786a-4d74-8af3-901404a844ec: 'Stuff Heading' # Stuff Heading
     d1b24b0f-6763-4cd4-b92f-93b097308e92: 'Plant Heading' # Plant Heading
+    dee223e3-4744-4927-81da-809c659c3bfc: 'Add Section' # Add Section
+    e406cf50-2edd-450a-a012-1802f7223948: 'Ingredients Section' # Ingredients Section
+    e276107d-43e0-47d5-9d5a-68900f176072: Sections # Sections
+    ea1f2cf7-719f-4876-8b91-17fd7a62a050: 'Description Second' # Description Second
+    ecf9d651-a217-4beb-8c1f-d57c12578bb3: 'Add Section' # Add Section
     ef60bf39-cb3d-4f02-96ab-d7e24bcb32d1: 'Public Schema' # Public Schema
+    f6cf9783-aa13-4640-a921-7e17d9026a02: 'Svsw Description' # Svsw Description
     f93ad09d-00b5-43c5-b494-8c628ac9803b: Uploads # Uploads
 plugins:
+  contact-form:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+    settings:
+      allowAttachments: ''
+      prependSender: 'On behalf of'
+      prependSubject: 'New message from Quiz-app Contact Form'
+      successFlashMessage: pooh
+      toEmail: Himanshu.d4d@gmail.com
   postmark:
     edition: standard
     enabled: true

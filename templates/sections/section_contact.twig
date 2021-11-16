@@ -1,0 +1,119 @@
+<section class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="block">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="l-cont">
+                    <h2>{{entry.contactSectionHeading}}</h2>
+                    <p>{{entry.contactSectionDescription}}</p>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="contact-info">
+                
+<div class="row">
+  {% if message is defined %}
+  <ul>
+  {% for error in message.getAllErrors() %}
+  <li>{{ error }}</li>
+  {% endfor %}
+  </ul>
+  {% endif %}
+   {% macro errorList(errors) %}
+    {% if errors %}
+        {{ ul(errors, {class: 'errors'}) }}
+    {% endif %}
+{% endmacro %}
+
+{% set message = message ?? null %}
+   </div>             
+<form method="post" action="" accept-charset="UTF-8" id="my-form">
+    {{ csrfInput() }}
+    {{ actionInput('contact-form/send') }}
+    {{ redirectInput('contact/thanks') }}
+    <div class="alert alert-primary" role="alert" id="thanks" style="display:none;">
+ 
+</div>
+<div class="form-group">
+<input type="hidden"  name="fromEmail" id="fromEmail" value="Example@gamil.com">
+                        <div class="row">
+                          <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="First Name" name="message[First-Name]" id="FirstName" required>
+                                {{ message ? _self.errorList(message.getErrors('First-Name')) }}
+
+                          </div>
+                           <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Last Name" name="message[Last-Name]" id="LastName" required>
+                              
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="row">
+                          <div class="col-md-12">
+                            <input type="text" class="form-control" placeholder="Store" name="message[Store]" id="store" required>
+                              
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="row">
+                          <div class="col-md-12">
+                              <select name="message[Territory]" class="form-control custom-select-lg" id="territory" required>
+                                <option selected>Territory</option>
+                                <option value="Territory-1">Territory-1</option>
+                                <option value="Territory-2">Territory-2</option>
+                                <option value="Territory-3">Territory-3</option>
+                              </select>
+                              
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-12">
+                              <textarea class="form-control" rows="6" placeholder="Message"  name="message.message" required>{{ message.message ?? '' }}</textarea>
+                              {{ message ? _self.errorList(message.getErrors('message')) }}
+
+                            </div>
+                        </div>
+                      </div>
+                      <div class="btn-block"><button type="submit" class="btn"><img src="{{siteUrl}}asset/images/cont-gr-arrow.png"></button>
+                      
+                      </div>
+                </form>
+                {% js %}
+               $('#my-form').submit(function(ev) {
+    // Prevent the form from actually submitting
+    ev.preventDefault();
+
+    // Send it to the server
+    $.post({
+        url: '{{siteUrl}}/contact-form/send',
+        dataType: 'json',
+        data: $(this).serialize(),
+        success: function(response) {
+            if (response.success) {
+               $("#my-form").trigger("reset");
+                $('#thanks').text("Thanks for contacting us.").fadeIn();
+                setTimeout(()=>{ $("#thanks").fadeOut(); }, 5000)
+            } else {
+                // response.error will be an object containing any validation errors that occurred, indexed by field name
+                // e.g. response.error.fromName => ['From Name is required']
+                alert('An error occurred. Please try again.');
+            }
+        }
+    });
+});               
+
+                {% endjs %}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>

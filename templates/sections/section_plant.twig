@@ -12,12 +12,11 @@
               <div class="home-demo">
                 <div class="large-12 columns">
                   <div class="owl-carousel">
-                  {% set sliderImages = entry.plantImage.all() %}
-                   {% for sliderImage in sliderImages %}
+                   {% for sliderImages in entry.sliderImage.all() %}
+                    {% set image = sliderImages.upload.one() %}
                     <div class="item">
                       <div class="inner-cont">
-                        {% set image = sliderImage.getUrl() %}
-                        <img src={{image}} />
+                        <img src={{ image.getUrl() }} />
                         <div class="inner-content">
                         </div>
                       </div>

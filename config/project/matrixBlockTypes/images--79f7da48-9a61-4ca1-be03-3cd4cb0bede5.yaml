@@ -1,0 +1,188 @@
+field: 3babc92c-7d63-4607-a1f5-d7115477ce0f # Stuff Images
+fieldLayouts:
+  001cc8db-0d63-41b4-b7ad-3050186263b4:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 57a5134a-d356-4054-bea2-99170476cc15 # Left Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: c8d9b19f-f63a-4529-ab5e-939d7d12b7cc # Right Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 24bf5370-3b5e-42ea-ac3c-6d76435ec911 # circle Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3aecc315-e1e4-4d3b-aabb-76050d002e45 # Center Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  3aecc315-e1e4-4d3b-aabb-76050d002e45: # Center Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: centerImage
+    instructions: ''
+    name: 'Center Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: 'Add a Center Image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  24bf5370-3b5e-42ea-ac3c-6d76435ec911: # circle Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: circleImage
+    instructions: ''
+    name: 'circle Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: 'Add a Circle Image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  57a5134a-d356-4054-bea2-99170476cc15: # Left Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: leftImage
+    instructions: ''
+    name: 'Left Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: 'Add a left image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  c8d9b19f-f63a-4529-ab5e-939d7d12b7cc: # Right Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: rightImage
+    instructions: ''
+    name: 'Right Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: 'Add a right image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: images
+name: Images
+sortOrder: 1

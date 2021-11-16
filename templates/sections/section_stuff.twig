@@ -1,5 +1,12 @@
  <section class="stuff">
-      <img src="{{siteUrl}}asset/images/img-3.png" alt="image-left" class="img-left">
+   {% for images in entry.StuffImage.all() %}
+          {% set image = images.leftImage.one() %}
+          {% if image | length %}
+      <img src="{{ image.url() }}" alt="image-left" class="img-left">
+      {% else %}
+       <img src="{{siteUrl}}asset/images/img-3.png" alt="image-left" class="img-left">
+       {% endif %}
+      {% endfor %}
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -9,10 +16,16 @@
                     <img src="{{siteUrl}}asset/images/img-3.png" alt="image-left" class="img-left">
                 </div> -->
                 <div class="col-md-6 offset-md-3 p-0">
-                  <h2>More of the good stuff,<br>none of the bad</h2>
-                  <p>Say hello to the first plant-based meat-alternative that boasts a short list of easy to read ingredients AND is shelf-stable!</p> 
-<p>So Veggie “So Wise!” is a great tasting vegan protein, free of artificial colours and preservatives as well as being non-GMO. Because you care about what you put in your body, we used lots of the good stuff and left out the bad.</p>
-              <img src="{{siteUrl}}asset/images/img-2.png" alt="image-left" class="img-crcle">
+                  <h2>{{entry.stuffHeading}}</h2>
+                  <p>{{entry.stuffDescription}}</p>
+                  {% for images in entry.StuffImage.all() %}
+          {% set image = images.circleImage.one() %}
+          {% if image | length %}
+              <img src="{{ image.url() }}" alt="image-left" class="img-crcle">
+              {% else %}
+               <img src="{{siteUrl}}asset/images/img-2.png" alt="image-left" class="img-crcle">
+               {% endif %}
+              {% endfor %}
               <a class="btn btn-success" href="#">Contact us</a>               
                 </div>
 <!--                 <div class="col-md-3">
@@ -20,7 +33,14 @@
                 </div> -->
             <div class="col-md-12">
               <div class="image-centre">
+               {% for images in entry.StuffImage.all() %}
+          {% set image = images.centerImage.one() %}
+          {% if image | length %}
+                <img src="{{ image.url() }}" alt="image-left">
+                {% else %}
                 <img src="{{siteUrl}}asset/images/play.jpg" alt="image-left">
+                 {% endif %}
+              {% endfor %}
               </div>
             </div>
               </div>
@@ -28,5 +48,12 @@
           </div>
         </div>
       </div>
-      <img src="{{siteUrl}}asset/images/img-4.png" alt="image-left" class="img-right">
+       {% for images in entry.StuffImage.all() %}
+          {% set image = images.rightImage.one() %}
+          {% if image | length %}
+          <img src="{{ image.url() }}" class="img-right">
+           {% else %}
+          <img src="{{siteUrl}}asset/images/img-4.png" alt="image-left" class="img-right">
+          {% endif %}
+              {% endfor %}
     </section>

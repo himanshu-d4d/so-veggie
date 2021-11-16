@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: e406cf50-2edd-450a-a012-1802f7223948 # Ingredients Section
+handle: sections
+instructions: ''
+name: Sections
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_sections}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

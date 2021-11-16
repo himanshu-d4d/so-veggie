@@ -1,0 +1,28 @@
+columnSuffix: yzoowery
+contentColumnType: text
+fieldGroup: 212ba4b4-8752-4e6d-98c4-07622bdb2649 # Contact-Us
+handle: contactSectionHeading
+instructions: ''
+name: 'Contact Section Heading'
+searchable: false
+settings:
+  availableTransforms: '*'
+  availableVolumes: '*'
+  cleanupHtml: true
+  columnType: text
+  configSelectionMode: choose
+  defaultTransform: ''
+  manualConfig: ''
+  purifierConfig: ''
+  purifyHtml: '1'
+  redactorConfig: ''
+  removeEmptyTags: '1'
+  removeInlineStyles: '1'
+  removeNbsp: '1'
+  showHtmlButtonForNonAdmins: '1'
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  uiMode: enlarged
+translationKeyFormat: null
+translationMethod: none
+type: craft\redactor\Field

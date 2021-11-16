@@ -1,0 +1,41 @@
+field: 2040039c-096b-48d8-ab95-0612784db162 # Items
+fieldLayouts:
+  2c6a6305-fed9-487c-9bc9-639aa8f25f3f:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 7de52773-b29b-42cc-a693-7ad7227cc709 # Less More Item
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  7de52773-b29b-42cc-a693-7ad7227cc709: # Less More Item
+    columnSuffix: ufasddpl
+    contentColumnType: text
+    fieldGroup: null
+    handle: lessMoreItem
+    instructions: ''
+    name: 'Less More Item'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: 'Add Items'
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: item
+name: item
+sortOrder: 1
