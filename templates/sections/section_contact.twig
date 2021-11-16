@@ -74,13 +74,15 @@
                       <div class="form-group">
                         <div class="row">
                             <div class="col-md-12">
-                              <textarea class="form-control" rows="6" placeholder="Message"  name="message.message" required>{{ message.message ?? '' }}</textarea>
+                              
+                              <textarea rows="6" cols="40" id="message" name="message[body]" class="form-control" placeholder="Message" required>{{ message.message.body ?? '' }}</textarea>
+
                               {{ message ? _self.errorList(message.getErrors('message')) }}
 
                             </div>
                         </div>
                       </div>
-                      <div class="btn-block"><button type="submit" class="btn"><img src="{{siteUrl}}asset/images/cont-gr-arrow.png"></button>
+                      <div class="btn-block nav-link"><button type="submit" class="btn "><img src="{{siteUrl}}asset/images/cont-gr-arrow.png"></button>
                       
                       </div>
                 </form>

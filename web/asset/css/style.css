@@ -343,6 +343,8 @@ animation: moving 5s infinite;
   justify-content: center;
   display: flex;
 }
+
+
 .less-more .content-list ul{
   margin: 0;
   padding: 0;

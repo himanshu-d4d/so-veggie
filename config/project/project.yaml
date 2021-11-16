@@ -1,4 +1,4 @@
-dateModified: 1636981864
+dateModified: 1637038122
 email:
   fromEmail: Himanshu.d4d@gmail.com
   fromName: Quiz-app
@@ -15,6 +15,7 @@ email:
   transportType: craft\mail\transportadapters\Smtp
 meta:
   __names__:
+    1a153368-f74c-47c9-9e30-676854501226: 'SVSW Images' # SVSW Images
     1bc69689-1b2b-41dc-b9fd-33b232cb8973: 'Heading Second' # Heading Second
     2a4c2b85-c00f-47b4-bf42-89dd0bf0af56: Image # Image
     3a992997-9812-4807-b43f-15a4791262bf: 'Plant Description' # Plant Description
@@ -45,6 +46,7 @@ meta:
     82aff86c-3487-4ca9-b40b-7015ad6e1f07: Upload # Upload
     82b591ac-23f7-4f14-9b4b-dfd5076d868d: 'Add Sections' # Add Sections
     90f5a4ae-4b9c-4c9d-8b37-9c77b4ea570f: 'Contact Section Heading' # Contact Section Heading
+    97c410f9-12e1-4480-9ef1-a77b4ca9e196: 'Upload Image' # Upload Image
     139c7b4b-bf3a-4ac6-8d8b-607bfbea83db: 'Section Description' # Section Description
     212ba4b4-8752-4e6d-98c4-07622bdb2649: Contact-Us # Contact-Us
     227b7bbb-fdd1-4fad-b3b3-bc8dc6d411ca: 'svsw Section' # svsw Section
@@ -56,7 +58,6 @@ meta:
     960e97c4-20da-4598-bfdd-b399cd3a945c: 'Heading First' # Heading First
     992a37cc-0700-46f5-8467-0c3c3d68a92b: 'Stuff Description' # Stuff Description
     2138d81d-cfde-4b1e-b5a8-200d6823decd: "Plant Image\t" # Plant Image	
-    36667e75-27c4-4f21-bfcc-6dc4af25c3b2: 'Photo Right' # Photo Right
     867762c2-e255-445f-80d7-16cd9afd1177: 'Section Heading' # Section Heading
     2040039c-096b-48d8-ab95-0612784db162: Items # Items
     42120308-0594-47e2-a795-74447dc49fb1: 'Plants Section' # Plants Section
@@ -65,7 +66,6 @@ meta:
     a83f7a9b-98c4-42aa-84d2-20f467930ae5: 'Svsw Heading' # Svsw Heading
     b0e2037b-9dec-4245-9ab6-9e6711cbb620: Home # Home
     b86df002-6bb7-4247-aecc-f08c733ccd3e: 'veggie Section' # veggie Section
-    bba014e8-16a7-414c-b5cf-a60caac53270: 'Photo Left' # Photo Left
     c0a2a353-ae55-4b6d-b295-b1f8dedece23: item # item
     c6d2127e-5b65-4d7a-9dab-60cc2bab0d59: 'Right List' # Right List
     c8d9b19f-f63a-4529-ab5e-939d7d12b7cc: 'Right Image' # Right Image
@@ -73,6 +73,7 @@ meta:
     d1b24b0f-6763-4cd4-b92f-93b097308e92: 'Plant Heading' # Plant Heading
     dee223e3-4744-4927-81da-809c659c3bfc: 'Add Section' # Add Section
     e406cf50-2edd-450a-a012-1802f7223948: 'Ingredients Section' # Ingredients Section
+    e2820a03-001e-4642-a43a-da6141fdd857: Photos # Photos
     e276107d-43e0-47d5-9d5a-68900f176072: Sections # Sections
     ea1f2cf7-719f-4876-8b91-17fd7a62a050: 'Description Second' # Description Second
     ecf9d651-a217-4beb-8c1f-d57c12578bb3: 'Add Section' # Add Section
@@ -90,6 +91,29 @@ plugins:
       prependSubject: 'New message from Quiz-app Contact Form'
       successFlashMessage: pooh
       toEmail: Himanshu.d4d@gmail.com
+  contact-form-extensions:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
+    settings:
+      confirmationSubject: ''
+      confirmationTemplate: ''
+      enableConfirmationEmail: ''
+      enableDatabase: '1'
+      enableRecaptchaOverride: ''
+      enableTemplateOverwrite: ''
+      notificationTemplate: ''
+      recaptcha: ''
+      recaptchaDataBadge: bottomright
+      recaptchaDebug: ''
+      recaptchaHideBadge: ''
+      recaptchaSecretKey: ''
+      recaptchaSiteKey: ''
+      recaptchaThreshold: '0.5'
+      recaptchaTimeout: '5'
+      recaptchaUrl: ''
+      recaptchaVerificationUrl: ''
+      recaptchaVersion: ''
   postmark:
     edition: standard
     enabled: true

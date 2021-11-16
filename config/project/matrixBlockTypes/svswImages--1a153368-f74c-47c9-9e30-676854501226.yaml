@@ -1,0 +1,56 @@
+field: e2820a03-001e-4642-a43a-da6141fdd857 # Photos
+fieldLayouts:
+  3fc1d7c4-56f2-4586-ba3c-50a40d28e17c:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 97c410f9-12e1-4480-9ef1-a77b4ca9e196 # Upload Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  97c410f9-12e1-4480-9ef1-a77b4ca9e196: # Upload Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: uploadImage
+    instructions: ''
+    name: 'Upload Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: 'Add A image'
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+      singleUploadLocationSubpath: ''
+      source: null
+      sources:
+        - 'volume:f93ad09d-00b5-43c5-b494-8c628ac9803b' # Uploads
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: svswImages
+name: 'SVSW Images'
+sortOrder: 1

@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 227b7bbb-fdd1-4fad-b3b3-bc8dc6d411ca # svsw Section
+handle: photos
+instructions: ''
+name: Photos
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_photos}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,13 +1,15 @@
-<section class="less-more">
-      <h2>{{entry.heading}}</h2>
+
+   <section class="less-more">
+      <div><h2>{{entry.heading}}</h2></div>
+  
       <div class="container">
         <div class="row">
-          {% for item in entry.items.all() %}
-            {% set allItems = item.lessMoreItem   %}
+        {% for item in entry.items.all() %}
+         {% set allItems =  item.lessMoreItem %}
           <div class="col-sm-6">
-            <div class="content-list">
+            <div class="content-list" style="margin-left: 40vh; float:left;">
               <ul>
-                <li>{{allItems}}</li>
+                <li>{{allItems}}</li> 
               </ul>
             </div>
           </div>
@@ -15,5 +17,3 @@
         </div>
       </div>
     </section>
-
-   

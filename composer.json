@@ -4,6 +4,7 @@
     "craftcms/contact-form": "^2.2",
     "craftcms/postmark": "^2.1",
     "craftcms/redactor": "2.8.8",
+    "hybridinteractive/craft-contact-form-extensions": "^1.2",
     "vlucas/phpdotenv": "^3.4.0"
   },
   "require-dev": {
